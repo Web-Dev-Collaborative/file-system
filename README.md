@@ -1,6 +1,11 @@
 # File System Manager
 
 
+---
+[![build:?](https://travis-ci.org/js-shelf/file-manager-js.svg?branch=master)](https://travis-ci.org/js-shelf/file-manager-js) [![npm](https://img.shields.io/npm/v/file-manager-js.svg)](https://www.npmjs.com/package/file-manager-js) [![npm](https://img.shields.io/npm/dm/file-manager-js.svg)](https://www.npmjs.com/package/file-manager-js) [![npm](https://img.shields.io/badge/node-%3E=%206.0-blue.svg)](https://www.npmjs.com/package/file-manager-js)
+
+---
+
 ```
 
 .
