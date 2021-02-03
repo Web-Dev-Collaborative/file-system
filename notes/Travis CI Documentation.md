@@ -33,7 +33,7 @@ Breaking the Build [#](#breaking-the-build)
 
 The build is considered _broken_, when one or more of its jobs complete with a state that is not _passed_:
 
-*   _errored_ - a command in the `before_install`, `install`, or `before_script` phase returned a non-zero exit code. The job stops immediately.
+*   _errored_ - a command in the `before_install`,  `install`, or `before_script` phase returned a non-zero exit code. The job stops immediately.
 *   _failed_ - a command in the `script` phase returned a non-zero exit code. The job continues to run until it completes.
 *   _canceled_ - a user cancels the job before it completes.
 
@@ -44,13 +44,12 @@ Infrastructure and Environment Notes [#](#infrastructure-and-environment-notes)
 
 Travis CI offers a few different infrastructure environments, so you can select the setup that suits your project best:
 
-*   _Ubuntu Linux_ - these Linux Ubuntu environments run inside full virtual machines, provide plenty of computational resources, and support the use of `sudo`, `setuid`, and `setgid`. Check out more information on the [Ubuntu Linux Build Environment](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/user/reference/linux/).
+*   _Ubuntu Linux_ - these Linux Ubuntu environments run inside full virtual machines, provide plenty of computational resources, and support the use of `sudo`,  `setuid`, and `setgid`. Check out more information on the [Ubuntu Linux Build Environment](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/user/reference/linux/).
 *   _macOS_ - uses one of several versions of the macOS operating system. This environment is useful for building projects that require the macOS software, such as projects written in Swift. It is not a requirement to use the macOS environment, if you develop on a macOS machine. Here you can find more details on the [macOS Build Environment](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/user/reference/osx/).
 *   _Windows_ - currently Windows Server version 1803 is supported. If you want to know more about it, see the [Windows Build Environment](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/user/reference/windows/).
 
 More details on our build environments are available in our [CI Environment](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/user/ci-environment/) documentation.
 
-Now that you’ve read the basics, head over to our [Tutorial](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/user/tutorial/) for details on setting up your first build!
-
+Now that you've read the basics, head over to our [Tutorial](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/user/tutorial/) for details on setting up your first build!
 
 [Source](https://docs.travis-ci.com/user/for-beginners/)

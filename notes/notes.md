@@ -4,7 +4,6 @@
 * ESLint uses an AST to evaluate patterns in code.
 * ESLint is completely pluggable, every single rule is a plugin and you can add more at runtime
 
-
 ---
 ---
 What Is Continuous Integration (CI)? #
@@ -16,6 +15,3 @@ CI Builds and Automation: Building, Testing, Deploying #
 When you run a build, Travis CI clones your GitHub repository into a brand-new virtual environment, and carries out a series of tasks to build and test your code. If one or more of those tasks fail, the build is considered broken. If none of the tasks fail, the build is considered passed and Travis CI can deploy your code to a web server or application host.
 
 CI builds can also automate other parts of your delivery workflow. This means you can have jobs depend on each other with Build Stages, set up notifications, prepare deployments after builds and many other tasks.
-
-
-
