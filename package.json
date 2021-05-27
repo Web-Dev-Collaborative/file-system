@@ -41,7 +41,7 @@
     "mocha": "^8.2.1"
   },
   "dependencies": {
-    "glob": "^7.1.6",
+    "glob": "^7.1.7",
     "require-dir-all": "^0.4.15"
   }
 }
